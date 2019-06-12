@@ -10,7 +10,7 @@ const bundleOutputDir = '../site/static'
 
 const repoHash = crypto
   .createHash(`md5`)
-  .update(process.env.REPO_URL)
+  .update('https://github.com/palmerhq/changecast')
   .digest(`hex`)
 
 const shortRepoHash = repoHash.substr(repoHash.length - 5)

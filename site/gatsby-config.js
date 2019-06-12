@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: 'gatsby-source-github-releases',
       options: {
-        url: process.env.REPO_URL,
+        url: 'https://github.com/palmerhq/changecast',
         token: process.env.GITHUB_TOKEN,
       },
     },
